@@ -2,7 +2,7 @@ version: '3.9'
 
 services:
   wordpress:
-    image: wordpress:5
+    image: wordpress:6
     container_name: ${PRIMARY_HOST}-wordpress
     restart: always
     depends_on:
@@ -16,8 +16,8 @@ services:
       LETSENCRYPT_HOST: ${HOST}
       LETSENCRYPT_EMAIL: ${EMAIL}
     expose:
-     - 80
-     - 443
+      - 80
+      - 443
     networks:
       - default
       - nginx-proxy
