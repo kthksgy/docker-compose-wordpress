@@ -39,5 +39,5 @@ networks:
   default:
     name: ${PRIMARY_HOST}
   nginx-proxy:
-    external:
-      name: nginx-proxy
+    external: true
+    name: nginx-proxy

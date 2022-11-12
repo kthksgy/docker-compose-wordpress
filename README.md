@@ -3,8 +3,8 @@ Docker ComposeでSSL/TLSに対応したWordPressを構築するリポジトリ�
 [kthksgy/docker-compose-nginx-proxy](https://github.com/kthksgy/docker-compose-nginx-proxy)と組み合わせて使用します。
 
 ## 必要動作環境
-- Docker `>= 19.03.0`
-- Docker Compose `>= 1.27.0`
+- Docker `>= 20.10`
+- Docker Compose `>= 2.7`
 
 参考: [Compose ファイル - Docker ドキュメント](https://matsuand.github.io/docs.docker.jp.onthefly/compose/compose-file/)
 
